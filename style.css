@@ -1,0 +1,36 @@
+body{
+      background:#000;
+}
+.ik_social {
+      margin:50px auto;
+      padding:0px;
+      text-align:center;
+      width:100%;
+}
+.ik_social li {
+      Display:inline-block;
+      margin:10px;
+     }
+.ik_social li a {
+      color:#fff;
+      display:inline-block;
+      font-size:25px;
+      height:50px;
+      width:50px;
+      text-decoration:none;
+      position:relative;
+      margin-bottom:20px;
+      font-family:'FontAwesome';
+      transition:all 0.5s ease;
+     pointer-events:auto;
+}
+.ik_social li a i {
+      line-height:50px;
+}
+.ik_social li a:hover  {
+      color:#3a5ba0;
+      background-color:#fff;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius: 25px;
+}
